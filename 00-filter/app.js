@@ -22,8 +22,31 @@ async function getData() {
     
     for (const r of results) {
 
-        const li = document.createElement('li');
+        // -------------------------------------------------------
 
+        // const li = document.createElement('li');
+        // const img = document.createElement('img');
+        // const div = document.createElement('div');
+        // const name = document.createElement('h4');
+        // const location = document.createElement('p');
+        // div.classList.add('user-info');
+
+        // img.src = r.picture.thumbnail;
+        // name.innerText = r.name.first;
+        // location.innerText = r.location.city;
+
+        // result.appendChild(li);
+
+        // li.appendChild(img);
+        // li.appendChild(div);
+        // div.appendChild(name);
+        // div.appendChild(location);
+
+        // listItems.push(li);
+
+        // -------------------------------------------------------
+
+        const li = document.createElement('li');
         li.innerHTML = `
             <img src=${r.picture.thumbnail} />
             <div class="user-info">
